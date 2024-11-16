@@ -4,7 +4,7 @@
 
 // Define the variables.
 env.component="payment"
-codeType="python"
+env.codeType="python"
 
 // Call the function from shared library
 cipipeline()
