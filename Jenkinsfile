@@ -6,5 +6,5 @@
 env.component="payment"
 env.codeType="python"
 
-// Call the function from shared library
+// Call the function from shared library.
 cipipeline()
