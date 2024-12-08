@@ -1,7 +1,7 @@
 component: payment
 appPort: 8080
 service_type: ClusterIP
-env: prod
-PARAMETERS: "payment.prod.CART_HOST,CART_HOST payment.prod.CART_PORT,CART_PORT payment.prod.USER_HOST,USER_HOST payment.prod.USER_PORT,USER_PORT payment.prod.AMQP_HOST,AMQP_HOST rabbitmq.prod.AMQP_USER,AMQP_USER rabbitmq.prod.AMQP_PASS,AMQP_PASS"
+env: dev
+PARAMETERS: "payment.dev.CART_POD,CART_HOST payment.dev.CART_PORT,CART_PORT payment.dev.USER_HOST,USER_HOST payment.dev.USER_PORT,USER_PORT payment.dev.AMQP_HOST,AMQP_HOST rabbitmq.dev.AMQP_USER,AMQP_USER rabbitmq.dev.AMQP_PASS,AMQP_PASS"
 schema:
   enabled: false
